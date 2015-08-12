@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BD41E8FB1B79857A0008AE27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41E8FA1B79857A0008AE27 /* AppDelegate.swift */; };
-		BD41E8FD1B79857A0008AE27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41E8FC1B79857A0008AE27 /* ViewController.swift */; };
+		BD41E8FD1B79857A0008AE27 /* playViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41E8FC1B79857A0008AE27 /* playViewController.swift */; };
 		BD41E9001B79857A0008AE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD41E8FE1B79857A0008AE27 /* Main.storyboard */; };
 		BD41E9021B79857A0008AE27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD41E9011B79857A0008AE27 /* Images.xcassets */; };
 		BD41E9051B79857A0008AE27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD41E9031B79857A0008AE27 /* LaunchScreen.xib */; };
 		BD41E9111B79857A0008AE27 /* Roshambo_MTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41E9101B79857A0008AE27 /* Roshambo_MTests.swift */; };
+		BD41E91B1B7A56EE0008AE27 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41E91A1B7A56EE0008AE27 /* resultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		BD41E8F51B79857A0008AE27 /* Roshambo_M.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo_M.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD41E8F91B79857A0008AE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD41E8FA1B79857A0008AE27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD41E8FC1B79857A0008AE27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD41E8FC1B79857A0008AE27 /* playViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playViewController.swift; sourceTree = "<group>"; };
 		BD41E8FF1B79857A0008AE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD41E9011B79857A0008AE27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD41E9041B79857A0008AE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BD41E90A1B79857A0008AE27 /* Roshambo_MTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Roshambo_MTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD41E90F1B79857A0008AE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD41E9101B79857A0008AE27 /* Roshambo_MTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roshambo_MTests.swift; sourceTree = "<group>"; };
+		BD41E91A1B7A56EE0008AE27 /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				BD41E8FA1B79857A0008AE27 /* AppDelegate.swift */,
-				BD41E8FC1B79857A0008AE27 /* ViewController.swift */,
+				BD41E8FC1B79857A0008AE27 /* playViewController.swift */,
 				BD41E8FE1B79857A0008AE27 /* Main.storyboard */,
 				BD41E9011B79857A0008AE27 /* Images.xcassets */,
 				BD41E9031B79857A0008AE27 /* LaunchScreen.xib */,
 				BD41E8F81B79857A0008AE27 /* Supporting Files */,
+				BD41E91A1B7A56EE0008AE27 /* resultViewController.swift */,
 			);
 			path = Roshambo_M;
 			sourceTree = "<group>";
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD41E8FD1B79857A0008AE27 /* ViewController.swift in Sources */,
+				BD41E91B1B7A56EE0008AE27 /* resultViewController.swift in Sources */,
+				BD41E8FD1B79857A0008AE27 /* playViewController.swift in Sources */,
 				BD41E8FB1B79857A0008AE27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				BD41E9161B79857A0008AE27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD41E9171B79857A0008AE27 /* Build configuration list for PBXNativeTarget "Roshambo_MTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				BD41E9191B79857A0008AE27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
